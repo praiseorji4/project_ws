@@ -1,0 +1,22 @@
+[0.026s] Invoking command in '/home/chibueze/project_ws/build/gojo_bringup': CMAKE_PREFIX_PATH=/home/chibueze/project_ws/install/gojo_description:/home/chibueze/project_ws/install/gojo_bringup:/opt/ros/humble /usr/bin/cmake --build /home/chibueze/project_ws/build/gojo_bringup -- -j2 -l2
+[0.114s] Invoked command in '/home/chibueze/project_ws/build/gojo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/chibueze/project_ws/install/gojo_description:/home/chibueze/project_ws/install/gojo_bringup:/opt/ros/humble /usr/bin/cmake --build /home/chibueze/project_ws/build/gojo_bringup -- -j2 -l2
+[0.170s] Invoking command in '/home/chibueze/project_ws/build/gojo_bringup': CMAKE_PREFIX_PATH=/home/chibueze/project_ws/install/gojo_description:/home/chibueze/project_ws/install/gojo_bringup:/opt/ros/humble /usr/bin/cmake --install /home/chibueze/project_ws/build/gojo_bringup
+[0.187s] -- Install configuration: ""
+[0.187s] -- Execute custom install script
+[0.187s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup//launch/gojo_gazebo.launch.xml
+[0.187s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/ament_index/resource_index/package_run_dependencies/gojo_bringup
+[0.190s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/ament_index/resource_index/parent_prefix_path/gojo_bringup
+[0.191s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/ament_prefix_path.sh
+[0.191s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/ament_prefix_path.dsv
+[0.192s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/path.sh
+[0.192s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/path.dsv
+[0.192s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.bash
+[0.192s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.sh
+[0.192s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.zsh
+[0.192s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.dsv
+[0.194s] -- Symlinking: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/package.dsv
+[0.210s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/ament_index/resource_index/packages/gojo_bringup
+[0.210s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/cmake/gojo_bringupConfig.cmake
+[0.210s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/cmake/gojo_bringupConfig-version.cmake
+[0.211s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/package.xml
+[0.214s] Invoked command in '/home/chibueze/project_ws/build/gojo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/chibueze/project_ws/install/gojo_description:/home/chibueze/project_ws/install/gojo_bringup:/opt/ros/humble /usr/bin/cmake --install /home/chibueze/project_ws/build/gojo_bringup

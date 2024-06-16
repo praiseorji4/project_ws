@@ -1,0 +1,9 @@
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/uninstall.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/gojo_description_uninstall.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/test.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/edit_cache.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/rebuild_cache.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/list_install_components.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/install.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/install/local.dir
+/home/chibueze/project_ws/build/gojo_description/CMakeFiles/install/strip.dir

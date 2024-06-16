@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="cam_len"
+        value="0.01"/>
+    <xacro:property name="cam_wid"
+        value="0.3"/>
+    <xacro:property name="cam_hgt"
+        value="0.1"/>
+    <xacro:property name="cam_mass"
+        value="0.1"/>
+
+
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size="0.01 0.3 0.2" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${cam_len} ${cam_wid} ${cam_hgt}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="${cam_mass}" />
+            <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+            <inertia ixx="${(1.0/12.0)* cam_mass *((cam_len * cam_len) + (cam_hgt * cam_hgt))}" 
+                     iyy="${(1.0/12.0)* cam_mass *((cam_wid * cam_wid) + (cam_hgt * cam_hgt))}" 
+                     izz="${(1.0/12.0)* cam_mass *((cam_wid * cam_wid)+ (cam_len * cam_len))}" 
+                     ixy="0.0" ixz="0.0" iyz="0.0" 
+                     />
+        </inertial>
+    </link>
+
+    <joint name="stand_camera_joint" type="fixed">
+        <parent link="camera_stand_link" />
+        <child link="camera_link"/>
+        <origin xyz="${(-0.444509 - cam_len)/2} 0 ${0.42 - cam_hgt}" rpy="0 0 3.14159"/>
+    </joint>
+
+    <!--For opencv stuff convention-->
+    <link name="camera_link_optical">
+    </link>
+
+    <joint name="camera_optical_joint" type="fixed">
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+        <parent link="camera_link" />
+        <child link="camera_link_optical" />
+    </joint>
+
+    <gazebo reference="camera_link">
+        <material>Gazebo/Black</material>
+        <sensor name="camera_sensor" type="camera">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo> 
+</robot>

@@ -1,0 +1,36 @@
+[0.049s] Invoking command in '/home/chibueze/project_ws/build/gojo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chibueze/project_ws/build/gojo_description -- -j2 -l2
+[0.252s] Invoked command in '/home/chibueze/project_ws/build/gojo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chibueze/project_ws/build/gojo_description -- -j2 -l2
+[0.340s] Invoking command in '/home/chibueze/project_ws/build/gojo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chibueze/project_ws/build/gojo_description
+[0.357s] -- Install configuration: ""
+[0.359s] -- Execute custom install script
+[0.360s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/common_properties.xacro
+[0.361s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/gojo.urdf.xacro
+[0.361s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/gojo_gazebo.urdf.xacro
+[0.361s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/gojo_gazebo_ref.xacro
+[0.361s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/mobile_base.xacro
+[0.361s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/steerbot.gazebo
+[0.362s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/steerbot.specs
+[0.362s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/steerbot.xacro
+[0.362s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//launch/display.launch.xml
+[0.362s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/cam_stand.stl
+[0.363s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/chassis.stl
+[0.363s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/pi_stand.stl
+[0.363s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/tire.stl
+[0.363s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/u_sensor.stl
+[0.364s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//rviz/gojo_urdf_config.rviz
+[0.364s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/ament_index/resource_index/package_run_dependencies/gojo_description
+[0.365s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/ament_index/resource_index/parent_prefix_path/gojo_description
+[0.366s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/ament_prefix_path.sh
+[0.367s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/ament_prefix_path.dsv
+[0.367s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/path.sh
+[0.367s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/path.dsv
+[0.368s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.bash
+[0.368s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.sh
+[0.369s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.zsh
+[0.369s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.dsv
+[0.369s] -- Symlinking: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/package.dsv
+[0.386s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/ament_index/resource_index/packages/gojo_description
+[0.386s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/cmake/gojo_descriptionConfig.cmake
+[0.387s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/cmake/gojo_descriptionConfig-version.cmake
+[0.387s] -- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/package.xml
+[0.390s] Invoked command in '/home/chibueze/project_ws/build/gojo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chibueze/project_ws/build/gojo_description

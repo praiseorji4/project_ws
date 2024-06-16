@@ -1,0 +1,6 @@
+Invoking command in '/home/chibueze/project_ws/build/gojo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chibueze/project_ws/src/gojo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chibueze/project_ws/install/gojo_description
+Invoked command in '/home/chibueze/project_ws/build/gojo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chibueze/project_ws/src/gojo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chibueze/project_ws/install/gojo_description
+Invoking command in '/home/chibueze/project_ws/build/gojo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chibueze/project_ws/build/gojo_description -- -j2 -l2
+Invoked command in '/home/chibueze/project_ws/build/gojo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chibueze/project_ws/build/gojo_description -- -j2 -l2
+Invoking command in '/home/chibueze/project_ws/build/gojo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chibueze/project_ws/build/gojo_description
+Invoked command in '/home/chibueze/project_ws/build/gojo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chibueze/project_ws/build/gojo_description

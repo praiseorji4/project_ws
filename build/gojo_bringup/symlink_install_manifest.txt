@@ -1,0 +1,17 @@
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup//launch/gojo_gazebo.launch.xml
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup//worlds/first_world.world
+/home/chibueze/project_ws/install/gojo_bringup/share/ament_index/resource_index/package_run_dependencies/gojo_bringup
+/home/chibueze/project_ws/install/gojo_bringup/share/ament_index/resource_index/parent_prefix_path/gojo_bringup
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/ament_prefix_path.sh
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/ament_prefix_path.dsv
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/path.sh
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/environment/path.dsv
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.bash
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.sh
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.zsh
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/local_setup.dsv
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/package.dsv
+/home/chibueze/project_ws/install/gojo_bringup/share/ament_index/resource_index/packages/gojo_bringup
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/cmake/gojo_bringupConfig.cmake
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/cmake/gojo_bringupConfig-version.cmake
+/home/chibueze/project_ws/install/gojo_bringup/share/gojo_bringup/package.xml

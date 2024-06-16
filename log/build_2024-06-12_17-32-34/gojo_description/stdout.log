@@ -1,0 +1,32 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/common_properties.xacro
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/gojo.urdf.xacro
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/gojo_gazebo.urdf.xacro
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/gojo_gazebo_ref.xacro
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/mobile_base.xacro
+-- Symlinking: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/steerbot.gazebo
+-- Symlinking: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/steerbot.specs
+-- Symlinking: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//urdf/steerbot.xacro
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//launch/display.launch.xml
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/cam_stand.stl
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/chassis.stl
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/pi_stand.stl
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/tire.stl
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//meshes/u_sensor.stl
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description//rviz/gojo_urdf_config.rviz
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/ament_index/resource_index/package_run_dependencies/gojo_description
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/ament_index/resource_index/parent_prefix_path/gojo_description
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/path.sh
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/environment/path.dsv
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.bash
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.sh
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.zsh
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/local_setup.dsv
+-- Symlinking: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/package.dsv
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/ament_index/resource_index/packages/gojo_description
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/cmake/gojo_descriptionConfig.cmake
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/cmake/gojo_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/chibueze/project_ws/install/gojo_description/share/gojo_description/package.xml

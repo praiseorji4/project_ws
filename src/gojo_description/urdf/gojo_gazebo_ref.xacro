@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <gazebo reference="base_link">
+        <material>Gazebo/Green</material>
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+    </gazebo>
+
+    <gazebo reference="left_front_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+    </gazebo>
+
+    <gazebo reference="left_back_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+    </gazebo>
+
+    <gazebo reference="right_front_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+    </gazebo>
+
+    <gazebo reference="right_back_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+    </gazebo>
+
+    <gazebo reference="ultrasonic_sensor_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="raspberry_stand_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="camera_stand_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    
+
+
+
+    <!-- Controller (four wheeled) -->
+    <gazebo>
+        <plugin name='gojo_drive' filename='libgazebo_ros_diff_drive.so'>
+            <ros>
+                <namespace></namespace>
+            </ros>
+
+            <!--Number of pairs on each side-->
+            <num_wheel_pairs>2</num_wheel_pairs>
+
+            <!--wheels0 (rear)-->
+            <left_joint>base_left_back_wheel_joint</left_joint>
+            <right_joint>base_right_back_wheel_joint</right_joint>
+
+            <!--wheels1 (front)-->
+            <left_joint>base_left_front_wheel_joint</left_joint>
+            <right_joint>base_right_front_wheel_joint</right_joint>
+
+            <!--KInematics-->
+            <wheel_separation>${box_wid+wheel_wid}</wheel_separation>
+            <wheel_separation>${box_wid+wheel_wid}</wheel_separation>
+
+            <wheel_diameter>${2*wheel_rad}</wheel_diameter>
+            <wheel_diameter>${2*wheel_rad}</wheel_diameter>
+
+            <!--Torque-->
+            <max_wheel_torque>10.0</max_wheel_torque>
+            <max_wheel_acceleration>2.0</max_wheel_acceleration>
+
+            <!--Output-->
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_footprint</robot_base_frame>
+        </plugin>
+    </gazebo>
+</robot>
+
+
+

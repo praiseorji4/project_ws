@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.001730] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.002435] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.047389] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'cmake'}
+[0.051124] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'build'}
+[0.054074] (my_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/final_ws/build/my_robot', '--', '-j4', '-l4'], 'cwd': '/home/pi/final_ws/build/my_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.200 55776 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/final_ws/install/my_robot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/final_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cdca9136-3ecf-4ab3-bdac-b27f6fab09fc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/final_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-320aca8c75.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/final_ws/build/my_robot'), ('SSH_CONNECTION', '192.168.8.200 55776 192.168.8.198 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[0.098911] (-) TimerEvent: {}
+[0.199902] (-) TimerEvent: {}
+[0.265018] (my_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_hardware\x1b[0m\n'}
+[0.300100] (-) TimerEvent: {}
+[0.367013] (my_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o\x1b[0m\n'}
+[0.400341] (-) TimerEvent: {}
+[0.501203] (-) TimerEvent: {}
+[0.602107] (-) TimerEvent: {}
+[0.703225] (-) TimerEvent: {}
+[0.803927] (-) TimerEvent: {}
+[0.904593] (-) TimerEvent: {}
+[1.005294] (-) TimerEvent: {}
+[1.105975] (-) TimerEvent: {}
+[1.206640] (-) TimerEvent: {}
+[1.307352] (-) TimerEvent: {}
+[1.408058] (-) TimerEvent: {}
+[1.508730] (-) TimerEvent: {}
+[1.609420] (-) TimerEvent: {}
+[1.710090] (-) TimerEvent: {}
+[1.810752] (-) TimerEvent: {}
+[1.911430] (-) TimerEvent: {}
+[2.012100] (-) TimerEvent: {}
+[2.112768] (-) TimerEvent: {}
+[2.213536] (-) TimerEvent: {}
+[2.314265] (-) TimerEvent: {}
+[2.415024] (-) TimerEvent: {}
+[2.515720] (-) TimerEvent: {}
+[2.616401] (-) TimerEvent: {}
+[2.717095] (-) TimerEvent: {}
+[2.817877] (-) TimerEvent: {}
+[2.918651] (-) TimerEvent: {}
+[3.019446] (-) TimerEvent: {}
+[3.120182] (-) TimerEvent: {}
+[3.220957] (-) TimerEvent: {}
+[3.321971] (-) TimerEvent: {}
+[3.422832] (-) TimerEvent: {}
+[3.523696] (-) TimerEvent: {}
+[3.624450] (-) TimerEvent: {}
+[3.725232] (-) TimerEvent: {}
+[3.825980] (-) TimerEvent: {}
+[3.926865] (-) TimerEvent: {}
+[4.027637] (-) TimerEvent: {}
+[4.128415] (-) TimerEvent: {}
+[4.229171] (-) TimerEvent: {}
+[4.329935] (-) TimerEvent: {}
+[4.430705] (-) TimerEvent: {}
+[4.531583] (-) TimerEvent: {}
+[4.632329] (-) TimerEvent: {}
+[4.733119] (-) TimerEvent: {}
+[4.833886] (-) TimerEvent: {}
+[4.934662] (-) TimerEvent: {}
+[5.035520] (-) TimerEvent: {}
+[5.136266] (-) TimerEvent: {}
+[5.237024] (-) TimerEvent: {}
+[5.337810] (-) TimerEvent: {}
+[5.438669] (-) TimerEvent: {}
+[5.539419] (-) TimerEvent: {}
+[5.640155] (-) TimerEvent: {}
+[5.740900] (-) TimerEvent: {}
+[5.841625] (-) TimerEvent: {}
+[5.942375] (-) TimerEvent: {}
+[6.043133] (-) TimerEvent: {}
+[6.143861] (-) TimerEvent: {}
+[6.244581] (-) TimerEvent: {}
+[6.345347] (-) TimerEvent: {}
+[6.446090] (-) TimerEvent: {}
+[6.546849] (-) TimerEvent: {}
+[6.647593] (-) TimerEvent: {}
+[6.748322] (-) TimerEvent: {}
+[6.849100] (-) TimerEvent: {}
+[6.949855] (-) TimerEvent: {}
+[7.050675] (-) TimerEvent: {}
+[7.151758] (-) TimerEvent: {}
+[7.252594] (-) TimerEvent: {}
+[7.353356] (-) TimerEvent: {}
+[7.454138] (-) TimerEvent: {}
+[7.554899] (-) TimerEvent: {}
+[7.655689] (-) TimerEvent: {}
+[7.756470] (-) TimerEvent: {}
+[7.857214] (-) TimerEvent: {}
+[7.957958] (-) TimerEvent: {}
+[8.058701] (-) TimerEvent: {}
+[8.159508] (-) TimerEvent: {}
+[8.260276] (-) TimerEvent: {}
+[8.361037] (-) TimerEvent: {}
+[8.461832] (-) TimerEvent: {}
+[8.562567] (-) TimerEvent: {}
+[8.663372] (-) TimerEvent: {}
+[8.764125] (-) TimerEvent: {}
+[8.864874] (-) TimerEvent: {}
+[8.965631] (-) TimerEvent: {}
+[9.066462] (-) TimerEvent: {}
+[9.167247] (-) TimerEvent: {}
+[9.267958] (-) TimerEvent: {}
+[9.368689] (-) TimerEvent: {}
+[9.469479] (-) TimerEvent: {}
+[9.570215] (-) TimerEvent: {}
+[9.671001] (-) TimerEvent: {}
+[9.771732] (-) TimerEvent: {}
+[9.873268] (-) TimerEvent: {}
+[9.974081] (-) TimerEvent: {}
+[10.075010] (-) TimerEvent: {}
+[10.175741] (-) TimerEvent: {}
+[10.276495] (-) TimerEvent: {}
+[10.377230] (-) TimerEvent: {}
+[10.477991] (-) TimerEvent: {}
+[10.578764] (-) TimerEvent: {}
+[10.679542] (-) TimerEvent: {}
+[10.780279] (-) TimerEvent: {}
+[10.881021] (-) TimerEvent: {}
+[10.981786] (-) TimerEvent: {}
+[11.082537] (-) TimerEvent: {}
+[11.183765] (-) TimerEvent: {}
+[11.284499] (-) TimerEvent: {}
+[11.385274] (-) TimerEvent: {}
+[11.486040] (-) TimerEvent: {}
+[11.586802] (-) TimerEvent: {}
+[11.687603] (-) TimerEvent: {}
+[11.788387] (-) TimerEvent: {}
+[11.889171] (-) TimerEvent: {}
+[11.990135] (-) TimerEvent: {}
+[12.090931] (-) TimerEvent: {}
+[12.191789] (-) TimerEvent: {}
+[12.292525] (-) TimerEvent: {}
+[12.393299] (-) TimerEvent: {}
+[12.494038] (-) TimerEvent: {}
+[12.594898] (-) TimerEvent: {}
+[12.695930] (-) TimerEvent: {}
+[12.796698] (-) TimerEvent: {}
+[12.897875] (-) TimerEvent: {}
+[12.998893] (-) TimerEvent: {}
+[13.099646] (-) TimerEvent: {}
+[13.200411] (-) TimerEvent: {}
+[13.301331] (-) TimerEvent: {}
+[13.402086] (-) TimerEvent: {}
+[13.502850] (-) TimerEvent: {}
+[13.603605] (-) TimerEvent: {}
+[13.704343] (-) TimerEvent: {}
+[13.805079] (-) TimerEvent: {}
+[13.905822] (-) TimerEvent: {}
+[14.006594] (-) TimerEvent: {}
+[14.107357] (-) TimerEvent: {}
+[14.208064] (-) TimerEvent: {}
+[14.308812] (-) TimerEvent: {}
+[14.409515] (-) TimerEvent: {}
+[14.510224] (-) TimerEvent: {}
+[14.611295] (-) TimerEvent: {}
+[14.712122] (-) TimerEvent: {}
+[14.813005] (-) TimerEvent: {}
+[14.912673] (my_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_hardware.so\x1b[0m\n'}
+[14.913301] (-) TimerEvent: {}
+[15.013953] (-) TimerEvent: {}
+[15.115238] (-) TimerEvent: {}
+[15.216111] (-) TimerEvent: {}
+[15.317043] (-) TimerEvent: {}
+[15.418236] (-) TimerEvent: {}
+[15.519388] (-) TimerEvent: {}
+[15.620703] (-) TimerEvent: {}
+[15.721743] (-) TimerEvent: {}
+[15.822654] (-) TimerEvent: {}
+[15.923701] (-) TimerEvent: {}
+[16.025058] (-) TimerEvent: {}
+[16.125939] (-) TimerEvent: {}
+[16.226677] (-) TimerEvent: {}
+[16.305969] (my_robot) StdoutLine: {'line': b'[100%] Built target my_robot_hardware\n'}
+[16.326885] (-) TimerEvent: {}
+[16.344544] (my_robot) CommandEnded: {'returncode': 0}
+[16.427077] (-) TimerEvent: {}
+[16.482275] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'install'}
+[16.519139] (my_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/final_ws/build/my_robot'], 'cwd': '/home/pi/final_ws/build/my_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.200 55776 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/final_ws/install/my_robot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/final_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cdca9136-3ecf-4ab3-bdac-b27f6fab09fc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/final_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-320aca8c75.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/final_ws/build/my_robot'), ('SSH_CONNECTION', '192.168.8.200 55776 192.168.8.198 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[16.527228] (-) TimerEvent: {}
+[16.551330] (my_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.551958] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/my_robot_hardware.xml\n'}
+[16.553775] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/lib/libmy_robot_hardware.so\n'}
+[16.560642] (my_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/final_ws/install/my_robot/lib/libmy_robot_hardware.so" to ""\n'}
+[16.561260] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup\n'}
+[16.561601] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/config\n'}
+[16.562066] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/config/my_robot_controllers.yaml\n'}
+[16.562476] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch\n'}
+[16.562853] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch/rsp.launch.py\n'}
+[16.563338] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch/my_robot.launch.py\n'}
+[16.563710] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description\n'}
+[16.564129] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf\n'}
+[16.564526] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf/my_robot.urdf.xacro\n'}
+[16.564836] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf/common_properties.xacro\n'}
+[16.565138] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/ros_control\n'}
+[16.565412] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/ros_control/my_robot_control.xacro\n'}
+[16.565827] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/launch\n'}
+[16.566223] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware\n'}
+[16.566527] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/src\n'}
+[16.566818] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/src/my_robot_hardware.cpp\n'}
+[16.567161] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include\n'}
+[16.567471] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include/my_robot\n'}
+[16.567927] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include/my_robot/my_robot_hardware.hpp\n'}
+[16.568281] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot\n'}
+[16.568577] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot\n'}
+[16.568902] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh\n'}
+[16.569313] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv\n'}
+[16.569794] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/path.sh\n'}
+[16.570179] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/environment/path.dsv\n'}
+[16.571266] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.bash\n'}
+[16.571741] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.sh\n'}
+[16.572183] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.zsh\n'}
+[16.572495] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.dsv\n'}
+[16.573251] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/package.dsv\n'}
+[16.574365] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot\n'}
+[16.575046] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/my_robot\n'}
+[16.576345] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.577435] (my_robot) StdoutLine: {'line': b'-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake\n'}
+[16.578359] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake\n'}
+[16.578807] (my_robot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/package.xml\n'}
+[16.583845] (my_robot) CommandEnded: {'returncode': 0}
+[16.627635] (-) TimerEvent: {}
+[16.728612] (-) TimerEvent: {}
+[16.816803] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[16.819554] (-) EventReactorShutdown: {}

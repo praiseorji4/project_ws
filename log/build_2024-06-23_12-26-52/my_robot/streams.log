@@ -1,0 +1,12 @@
+[0.077s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target my_robot_hardware[0m
+[0.448s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[2.828s] In file included from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:1[m[K:
+[2.828s] [01m[K/home/pi/final_ws/src/my_robot/hardware/include/my_robot/my_robot_hardware.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/types/hardware_interface_status_values.hpp: No such file or directory
+[2.829s]     8 | #include [01;31m[K"hardware_interface/types/hardware_interface_status_values.hpp"[m[K
+[2.830s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.831s] compilation terminated.
+[2.839s] gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+[2.840s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+[2.840s] gmake: *** [Makefile:146: all] Error 2
+[2.848s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

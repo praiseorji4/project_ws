@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<robot name="gojo_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="common_properties.xacro"/>
+    <xacro:include filename="$(find my_robot)/description/ros_control/my_robot_control.xacro"/>
+    <!-- <xacro:include filename="gojo_gazebo_ref.xacro" /> -->
+    <!-- <xacro:include filename="gojo_camera.xacro"/> -->
+    <!-- <xacro:include filename="gojo_ros2_control.xacro"/> -->
+
+    <link name="base_footprint">
+    </link>
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${box_len} ${box_wid} ${box_hgt}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="green" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${box_len} ${box_wid} ${box_hgt}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+            <mass value="${box_mass}" />
+            <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+            <inertia ixx="${(1.0/12.0)*(box_len_sq + box_hgt_sq)}" 
+                     iyy="${(1.0/12.0)*(box_wid_sq + box_hgt_sq)}" 
+                     izz="${(1.0/12.0)*(box_wid_sq + box_len_sq)}" 
+                     ixy="0.0" ixz="0.0" iyz="0.0" 
+                     />
+        </inertial>
+    </link>
+
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 0.5" rpy="0 0 0" />
+    </joint>
+
+ 
+    <link name="left_front_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+            <mass value="${wheel_mass}"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia 
+                     ixx="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     iyy="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     izz="${1./12. * wheel_mass * (wheel_rad_sq)}" 
+                     ixy="0.0" ixz="0.0" iyz="0.0" 
+                     />
+        </inertial>
+    </link> 
+    <joint name="base_left_front_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="left_front_wheel_link" />
+        <origin xyz="${-box_len/4} ${-box_wid/2 -wheel_wid/2} 0" rpy="1.57 0 0" />
+        <axis xyz="0 0 1" />
+        <limit effort="1000" velocity="1000"/>
+        <dynamics damping="${bearing_damping}" friction="${bearing_friction}"/>
+    </joint>
+
+    
+
+    <link name="right_front_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+            <mass value="${wheel_mass}"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia 
+                     ixx="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     iyy="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     izz="${1./12. * wheel_mass * (wheel_rad_sq)}" 
+                     ixy="0.0" ixz="0.0" iyz="0.0" 
+                     />
+        </inertial>
+    </link> 
+    <joint name="base_right_front_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="right_front_wheel_link" />
+        <origin xyz="${-box_len/4} ${box_wid/2 + wheel_wid/2} 0" rpy="1.57 0 0" />
+        <axis xyz="0 0 1" />
+        <limit effort="1000" velocity="1000"/>
+        <dynamics damping="${bearing_damping}" friction="${bearing_friction}"/>
+    </joint>
+
+
+    <link name="left_back_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+            <mass value="${wheel_mass}"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia 
+                     ixx="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     iyy="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     izz="${1./12. * wheel_mass * (wheel_rad_sq)}" 
+                     ixy="0.0" ixz="0.0" iyz="0.0" 
+                     />
+        </inertial>
+    </link> 
+
+    <joint name="base_left_back_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="left_back_wheel_link" />
+        <origin xyz="${box_len/4} ${-box_wid/2 -wheel_wid/2} 0" rpy="1.57 0 0" />
+        <axis xyz="0 0 1" />
+        <limit effort="1000" velocity="1000"/>
+        <dynamics damping="${bearing_damping}" friction="${bearing_friction}"/>
+    </joint>
+
+
+
+    <link name="right_back_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_wid}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+            <mass value="${wheel_mass}"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia 
+                     ixx="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     iyy="${1./12. * wheel_mass * ((wheel_rad_sq * 3) + (wheel_wid_sq))}" 
+                     izz="${1./12. * wheel_mass * (wheel_rad_sq)}" 
+                     ixy="0.0" ixz="0.0" iyz="0.0" 
+                     />
+        </inertial>
+    </link> 
+    <joint name="base_right_back_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="right_back_wheel_link" />
+        <origin xyz="${box_len/4} ${box_wid/2 + wheel_wid/2} 0" rpy="1.57 0 0" />
+        <axis xyz="0 0 1" />
+        <limit effort="1000" velocity="1000"/>
+        <dynamics damping="${bearing_damping}" friction="${bearing_friction}"/>
+    </joint>
+
+    <!-- <link name="ultrasonic_sensor_link">
+        <visual>
+            <geometry>
+                <box size="0.385456 0.186298 0.232044" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.385456 0.186298 0.232044" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+            <mass value="0.25" />
+            <origin xyz="-0.009628 -0.000085 0.021108" rpy="0.012 -0.591 1.569" />
+            <inertia ixx="0.000139" ixy="-0.000000" ixz="0.000025" 
+                     iyy="0.000081" iyz="0.000000" 
+                     izz="0.000123" />
+        </inertial>
+    </link> 
+    <joint name="base_ultrasonic_sensor_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="ultrasonic_sensor_link" />
+        <origin xyz="-0.8 0 0.431022" rpy="0 0 0" />
+    </joint>
+    
+    <link name="raspberry_stand_link">
+        <visual>
+            <geometry>
+                <box size="0.819344 0.682982 0.44900" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 1.57" />
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.819344 0.682982 0.44900" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 1.57" />
+        </collision>
+        <inertial>
+            <mass value="0.5" />
+            <origin xyz="0.000000 0.000000 0.000000" rpy="0 0 1.57" />
+            <inertia ixx="0.036371" ixy="0.000000" ixz="0.000000" 
+                     iyy="0.027836" iyz="0.000000" 
+                     izz="0.047407" />
+        </inertial>
+    </link> 
+    <joint name="base_raspberry_stand_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="raspberry_stand_link" />
+        <origin xyz="-0.1 0 0.5395" rpy="0 0 0" />
+    </joint>
+
+    <link name="camera_stand_link">
+        <visual>
+            <geometry>
+                <box size="0.444509 0.378892 0.864679" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.444509 0.378892 0.864679" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+            <mass value="0.25" />
+            <origin xyz="0.002037 0.000000 0.034920" rpy="1.5708 0.012 0" />
+            <inertia ixx="0.001652" ixy="0.000000" ixz="0.000011" 
+                     iyy="0.001518" iyz="0.000000" 
+                     izz="0.000759" />
+        </inertial>
+    </link> 
+    <joint name="base_camera_stand_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="camera_stand_link" />
+        <origin xyz="0.7 0 0.7473395" rpy="0 0 0" />
+    </joint> -->
+   
+</robot>

@@ -1,0 +1,5 @@
+[0.058s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.135s] [0mCMake Error: The source directory "/home/pi/final_ws/src/my_robot" does not exist.
+[0.135s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.138s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.144s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

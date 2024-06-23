@@ -1,0 +1,30 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> my_robot::MyRobotHardware::export_state_interfaces()[m[K’:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:155:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  155 |             joint_names_[0], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[0]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:157:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  157 |             joint_names_[1], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[1]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:159:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  159 |             joint_names_[2], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[2]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:161:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  161 |             joint_names_[3], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[3]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> my_robot::MyRobotHardware::export_command_interfaces()[m[K’:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:171:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  171 |             joint_names_[0], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[0]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:173:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  173 |             joint_names_[1], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[1]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:175:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  175 |             joint_names_[2], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[2]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:177:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+  177 |             joint_names_[3], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[3]));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

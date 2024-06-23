@@ -1,0 +1,11 @@
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn my_robot::MyRobotHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_states_[m[K’ was not declared in this scope
+   17 |         [01;31m[Khw_states_[m[K.resize(number_of_joints_, 0.0);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type my_robot::MyRobotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:83:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_states_[m[K’ was not declared in this scope
+   83 |         [01;31m[Khw_states_[m[K[0] = 1.0; // Left front wheel position
+      |         [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,32 @@
+[0.078s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.388s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[13.070s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> my_robot::MyRobotHardware::export_state_interfaces()[m[K’:
+[13.070s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:155:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.071s]   155 |             joint_names_[0], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[0]));
+[13.072s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.073s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:157:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.073s]   157 |             joint_names_[1], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[1]));
+[13.074s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.075s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:159:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.076s]   159 |             joint_names_[2], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[2]));
+[13.077s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.077s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:161:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_POSITION[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.078s]   161 |             joint_names_[3], hardware_interface::[01;31m[KHW_IF_POSITION[m[K, &hw_states_[3]));
+[13.078s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.093s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> my_robot::MyRobotHardware::export_command_interfaces()[m[K’:
+[13.094s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:171:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.094s]   171 |             joint_names_[0], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[0]));
+[13.095s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.096s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:173:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.097s]   173 |             joint_names_[1], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[1]));
+[13.097s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.098s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:175:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.099s]   175 |             joint_names_[2], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[2]));
+[13.100s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.101s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:177:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHW_IF_VELOCITY[m[K’ is not a member of ‘[01m[Khardware_interface[m[K’
+[13.101s]   177 |             joint_names_[3], hardware_interface::[01;31m[KHW_IF_VELOCITY[m[K, &hw_commands_[3]));
+[13.102s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.523s] gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+[15.524s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+[15.524s] gmake: *** [Makefile:146: all] Error 2
+[15.530s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

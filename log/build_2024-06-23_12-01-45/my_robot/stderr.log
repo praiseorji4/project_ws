@@ -1,0 +1,49 @@
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:5:109:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::CallbackReturn MyRobotHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    5 | ckReturn MyRobotHardware::on_init(const hardware_interface::HardwareInfo &info[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:62:119:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::CallbackReturn MyRobotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   62 | yRobotHardware::on_activate(const rclcpp_lifecycle::State & /*previous_state*/[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:69:121:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::CallbackReturn MyRobotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   69 | obotHardware::on_deactivate(const rclcpp_lifecycle::State & /*previous_state*/[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:75:125:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::return_type MyRobotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   75 | dware::read(const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:81:126:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::return_type MyRobotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   81 | ware::write(const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129[m[K:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:34:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotHardware[m[K’ in namespace ‘[01m[Kmy_robot[m[K’ does not name a type
+  131 | PLUGINLIB_EXPORT_CLASS(my_robot::[01;31m[KMyRobotHardware[m[K, hardware_interface::SystemInterface)
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  131 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [26], const char [36])[m[K’
+  131 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129[m[K:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  131 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

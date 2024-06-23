@@ -1,0 +1,10 @@
+[0.054s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target my_robot_hardware[0m
+[0.335s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[12.609s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:80:122:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K)[m[K’ token
+[12.610s]    80 |     hardware_interface::return_type MyRobotHardware::read(const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
+[12.610s]       |                                                                                                                          [01;31m[K^[m[K
+[14.634s] gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+[14.634s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+[14.635s] gmake: *** [Makefile:146: all] Error 2
+[14.641s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

@@ -1,0 +1,83 @@
+<!-- ros_control/robot_control.xacro -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="robot_namespace" value="my_robot"/>
+    <xacro:property name="hardware_plugin" value="my_robot/MyRobotHardware"/>
+
+    <ros2_control name="${robot_namespace}_controller" type="system">
+        <hardware>
+            <plugin>${hardware_plugin}</plugin>
+                <param name="gpio_pins">
+                    <!-- Example GPIO pin configuration -->
+                    <param name="L_IN1" type="int">20</param>
+                    <param name="L_IN2" type="int">21</param>
+                    <param name="L_PWM1" type="int">0</param>
+                    <param name="L_IN3" type="int">22</param>
+                    <param name="L_IN4" type="int">23</param>
+                    <param name="L_PWM2" type="int">1</param>
+                    <param name="R_IN1" type="int">24</param>
+                    <param name="R_IN2" type="int">25</param>
+                    <param name="R_PWM1" type="int">12</param>
+                    <param name="R_IN3" type="int">26</param>
+                    <param name="R_IN4" type="int">27</param>
+                    <param name="R_PWM2" type="int">13</param>
+                </param>
+
+        </hardware>
+        <joint name="base_left_front_wheel_joint">
+            <command_interface name="velocity"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+        </joint>
+        <joint name="base_left_back_wheel_joint">
+            <command_interface name="velocity"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+        </joint>
+        <joint name="base_right_front_wheel_joint">
+            <command_interface name="velocity"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+        </joint>
+        <joint name="base_right_back_wheel_joint">
+            <command_interface name="velocity"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+        </joint>
+        <!-- <transmission name="left_front_transmission">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="left_front_wheel_joint">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="left_front_motor">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </actuator>
+        </transmission>
+        <transmission name="left_rear_transmission">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="left_rear_wheel_joint">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="left_rear_motor">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </actuator>
+        </transmission>
+        <transmission name="right_front_transmission">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="right_front_wheel_joint">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="right_front_motor">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </actuator>
+        </transmission>
+        <transmission name="right_rear_transmission">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="right_rear_wheel_joint">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="right_rear_motor">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </actuator>
+        </transmission> -->
+    </ros2_control>
+</robot>

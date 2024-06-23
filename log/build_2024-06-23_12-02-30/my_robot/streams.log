@@ -1,0 +1,73 @@
+[0.064s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.180s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.853s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.034s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.046s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.073s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.464s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.471s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.058s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[5.234s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[6.733s] -- Found diff_drive_controller: 2.35.0 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[7.018s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[8.307s] -- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[9.026s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[9.027s] -- Found ros2_control_test_assets: 2.41.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[10.849s] -- Configuring done
+[11.043s] -- Generating done
+[11.052s] -- Build files have been written to: /home/pi/final_ws/build/my_robot
+[11.172s] [35m[1mConsolidate compiler generated dependencies of target my_robot_hardware[0m
+[11.263s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[21.558s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:5:109:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::CallbackReturn MyRobotHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.558s]     5 | ckReturn MyRobotHardware::on_init(const hardware_interface::HardwareInfo &info[01;31m[K)[m[K
+[21.559s]       |                                                                               [01;31m[K^[m[K
+[21.559s] 
+[21.564s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:62:119:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::CallbackReturn MyRobotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.564s]    62 | yRobotHardware::on_activate(const rclcpp_lifecycle::State & /*previous_state*/[01;31m[K)[m[K
+[21.565s]       |                                                                               [01;31m[K^[m[K
+[21.565s] 
+[21.567s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:69:121:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::CallbackReturn MyRobotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.568s]    69 | obotHardware::on_deactivate(const rclcpp_lifecycle::State & /*previous_state*/[01;31m[K)[m[K
+[21.568s]       |                                                                               [01;31m[K^[m[K
+[21.569s] 
+[21.570s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:75:125:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::return_type MyRobotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.570s]    75 | dware::read(const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/[01;31m[K)[m[K
+[21.570s]       |                                                                               [01;31m[K^[m[K
+[21.571s] 
+[21.571s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:81:126:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Khardware_interface::return_type MyRobotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ is not in namespace enclosing ‘[01m[KMyRobotHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.571s]    81 | ware::write(const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/[01;31m[K)[m[K
+[21.572s]       |                                                                               [01;31m[K^[m[K
+[21.572s] 
+[21.609s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[21.609s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[21.610s]                  from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129[m[K:
+[21.610s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:34:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotHardware[m[K’ in namespace ‘[01m[Kmy_robot[m[K’ does not name a type
+[21.611s]   131 | PLUGINLIB_EXPORT_CLASS(my_robot::[01;31m[KMyRobotHardware[m[K, hardware_interface::SystemInterface)
+[21.611s]       |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.640s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[21.641s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[21.641s]   131 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)
+[21.642s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.642s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [26], const char [36])[m[K’
+[21.643s]   131 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)
+[21.643s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.643s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[21.643s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[21.644s]                  from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129[m[K:
+[21.644s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[21.644s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[21.645s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[21.645s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[21.646s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[21.646s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[21.646s]                  from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129[m[K:
+[21.647s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:131:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[21.647s]   131 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)
+[21.647s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.445s] gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+[23.446s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+[23.446s] gmake: *** [Makefile:146: all] Error 2
+[23.453s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

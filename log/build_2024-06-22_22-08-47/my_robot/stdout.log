@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Found diff_drive_controller: 2.35.0 (/opt/ros/humble/share/diff_drive_controller/cmake)
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+-- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+-- Found ros2_control_test_assets: 2.41.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/final_ws/build/my_robot
+[35m[1mConsolidate compiler generated dependencies of target my_robot_hardware[0m
+[100%] Built target my_robot_hardware
+-- Install configuration: ""
+-- Up-to-date: /home/pi/final_ws/install/my_robot/lib/libmy_robot_hardware.so
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//bringup
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/config
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/config/my_robot_controllers.yaml
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch/my_robot.launch.py
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf/my_robot.urdf.xacro
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf/common_properties.xacro
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description/ros_control
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description/ros_control/my_robot_control.xacro
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description/launch
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/src
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/src/my_robot_hardware.cpp
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include/my_robot
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include/my_robot/my_robot_hardware.hpp
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/path.sh
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/environment/path.dsv
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.bash
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.sh
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.zsh
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.dsv
+-- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/package.dsv
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+-- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/package.xml

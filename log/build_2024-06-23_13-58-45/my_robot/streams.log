@@ -1,0 +1,14 @@
+[0.129s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.682s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[11.174s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn my_robot::MyRobotHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[11.174s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_states_[m[K’ was not declared in this scope
+[11.174s]    17 |         [01;31m[Khw_states_[m[K.resize(number_of_joints_, 0.0);
+[11.175s]       |         [01;31m[K^~~~~~~~~~[m[K
+[11.209s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type my_robot::MyRobotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[11.210s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:83:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_states_[m[K’ was not declared in this scope
+[11.210s]    83 |         [01;31m[Khw_states_[m[K[0] = 1.0; // Left front wheel position
+[11.210s]       |         [01;31m[K^~~~~~~~~~[m[K
+[13.245s] gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+[13.246s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+[13.247s] gmake: *** [Makefile:146: all] Error 2
+[13.253s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

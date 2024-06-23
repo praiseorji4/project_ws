@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target my_robot_hardware[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type my_robot::MyRobotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:89:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kperiod[m[K’ was not declared in this scope; did you mean ‘[01m[Kperror[m[K’?
+   89 |         hw_positions_[i] = hw_positions_[i] + [01;31m[Kperiod[m[K.seconds() * hw_velocities_[i];
+      |                                               [01;31m[K^~~~~~[m[K
+      |                                               [32m[Kperror[m[K
+gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

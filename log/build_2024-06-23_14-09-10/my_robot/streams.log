@@ -1,0 +1,12 @@
+[0.126s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target my_robot_hardware[0m
+[0.633s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[13.258s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type my_robot::MyRobotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[13.259s] [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:89:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kperiod[m[K’ was not declared in this scope; did you mean ‘[01m[Kperror[m[K’?
+[13.259s]    89 |         hw_positions_[i] = hw_positions_[i] + [01;31m[Kperiod[m[K.seconds() * hw_velocities_[i];
+[13.260s]       |                                               [01;31m[K^~~~~~[m[K
+[13.260s]       |                                               [32m[Kperror[m[K
+[15.263s] gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+[15.264s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+[15.264s] gmake: *** [Makefile:146: all] Error 2
+[15.270s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

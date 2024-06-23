@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.002312] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.003138] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.063391] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'cmake'}
+[0.071277] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'build'}
+[0.075061] (my_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/final_ws/build/my_robot', '--', '-j4', '-l4'], 'cwd': '/home/pi/final_ws/build/my_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.200 56923 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/final_ws/install/my_robot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-20ef6274-5fab-4a89-ba57-c62ba631a19f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/final_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-021f811153.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/final_ws/build/my_robot'), ('SSH_CONNECTION', '192.168.8.200 56923 192.168.8.198 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[0.099208] (-) TimerEvent: {}
+[0.201454] (-) TimerEvent: {}
+[0.302377] (-) TimerEvent: {}
+[0.368360] (my_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.402576] (-) TimerEvent: {}
+[0.503363] (-) TimerEvent: {}
+[0.604159] (-) TimerEvent: {}
+[0.705053] (-) TimerEvent: {}
+[0.805790] (-) TimerEvent: {}
+[0.906926] (-) TimerEvent: {}
+[1.007697] (-) TimerEvent: {}
+[1.042862] (my_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.107877] (-) TimerEvent: {}
+[1.208636] (-) TimerEvent: {}
+[1.264335] (my_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.281237] (my_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.308809] (-) TimerEvent: {}
+[1.323515] (my_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.395934] (my_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.408989] (-) TimerEvent: {}
+[1.481300] (my_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.509159] (-) TimerEvent: {}
+[1.609870] (-) TimerEvent: {}
+[1.710589] (-) TimerEvent: {}
+[1.786145] (my_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.796620] (my_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.810766] (-) TimerEvent: {}
+[1.911528] (-) TimerEvent: {}
+[2.012422] (-) TimerEvent: {}
+[2.113477] (-) TimerEvent: {}
+[2.214593] (-) TimerEvent: {}
+[2.315400] (-) TimerEvent: {}
+[2.416291] (-) TimerEvent: {}
+[2.517075] (-) TimerEvent: {}
+[2.617747] (-) TimerEvent: {}
+[2.718422] (-) TimerEvent: {}
+[2.819163] (-) TimerEvent: {}
+[2.919918] (-) TimerEvent: {}
+[2.929601] (my_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.020102] (-) TimerEvent: {}
+[3.120997] (-) TimerEvent: {}
+[3.221849] (-) TimerEvent: {}
+[3.322689] (-) TimerEvent: {}
+[3.424334] (-) TimerEvent: {}
+[3.525250] (-) TimerEvent: {}
+[3.626176] (-) TimerEvent: {}
+[3.654749] (my_robot) StdoutLine: {'line': b'-- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[3.726378] (-) TimerEvent: {}
+[3.828517] (-) TimerEvent: {}
+[3.930804] (-) TimerEvent: {}
+[4.033112] (-) TimerEvent: {}
+[4.134910] (-) TimerEvent: {}
+[4.235772] (-) TimerEvent: {}
+[4.336854] (-) TimerEvent: {}
+[4.438324] (-) TimerEvent: {}
+[4.539236] (-) TimerEvent: {}
+[4.640160] (-) TimerEvent: {}
+[4.741816] (-) TimerEvent: {}
+[4.842873] (-) TimerEvent: {}
+[4.944812] (-) TimerEvent: {}
+[5.045794] (-) TimerEvent: {}
+[5.146685] (-) TimerEvent: {}
+[5.248956] (-) TimerEvent: {}
+[5.350334] (-) TimerEvent: {}
+[5.452873] (-) TimerEvent: {}
+[5.554728] (-) TimerEvent: {}
+[5.655695] (-) TimerEvent: {}
+[5.756508] (-) TimerEvent: {}
+[5.857339] (-) TimerEvent: {}
+[5.958446] (-) TimerEvent: {}
+[6.043922] (my_robot) StdoutLine: {'line': b'-- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[6.058634] (-) TimerEvent: {}
+[6.159444] (-) TimerEvent: {}
+[6.260983] (-) TimerEvent: {}
+[6.361870] (-) TimerEvent: {}
+[6.462806] (-) TimerEvent: {}
+[6.563835] (-) TimerEvent: {}
+[6.665116] (-) TimerEvent: {}
+[6.766143] (-) TimerEvent: {}
+[6.867242] (-) TimerEvent: {}
+[6.968132] (-) TimerEvent: {}
+[7.069608] (-) TimerEvent: {}
+[7.170479] (-) TimerEvent: {}
+[7.271511] (-) TimerEvent: {}
+[7.372602] (-) TimerEvent: {}
+[7.473863] (-) TimerEvent: {}
+[7.574727] (-) TimerEvent: {}
+[7.675992] (-) TimerEvent: {}
+[7.688132] (my_robot) StdoutLine: {'line': b'-- Found diff_drive_controller: 2.35.0 (/opt/ros/humble/share/diff_drive_controller/cmake)\n'}
+[7.776194] (-) TimerEvent: {}
+[7.877021] (-) TimerEvent: {}
+[7.977787] (-) TimerEvent: {}
+[7.991068] (my_robot) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[8.077982] (-) TimerEvent: {}
+[8.178786] (-) TimerEvent: {}
+[8.279569] (-) TimerEvent: {}
+[8.380364] (-) TimerEvent: {}
+[8.481135] (-) TimerEvent: {}
+[8.581916] (-) TimerEvent: {}
+[8.682809] (-) TimerEvent: {}
+[8.784074] (-) TimerEvent: {}
+[8.884908] (-) TimerEvent: {}
+[8.985661] (-) TimerEvent: {}
+[9.086438] (-) TimerEvent: {}
+[9.187267] (-) TimerEvent: {}
+[9.288045] (-) TimerEvent: {}
+[9.349929] (my_robot) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[9.388222] (-) TimerEvent: {}
+[9.489218] (-) TimerEvent: {}
+[9.590782] (-) TimerEvent: {}
+[9.691529] (-) TimerEvent: {}
+[9.792446] (-) TimerEvent: {}
+[9.893263] (-) TimerEvent: {}
+[9.994039] (-) TimerEvent: {}
+[10.088987] (my_robot) StdoutLine: {'line': b'-- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[10.091333] (my_robot) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.41.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[10.094181] (-) TimerEvent: {}
+[10.194948] (-) TimerEvent: {}
+[10.233280] (my_robot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[10.234232] (my_robot) StderrLine: {'line': b'  By not providing "Findpigpiod_if2.cmake" in CMAKE_MODULE_PATH this project\n'}
+[10.234628] (my_robot) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[10.234952] (my_robot) StderrLine: {'line': b'  "pigpiod_if2", but CMake did not find one.\n'}
+[10.235310] (my_robot) StderrLine: {'line': b'\n'}
+[10.235642] (my_robot) StderrLine: {'line': b'  Could not find a package configuration file provided by "pigpiod_if2" with\n'}
+[10.235992] (my_robot) StderrLine: {'line': b'  any of the following names:\n'}
+[10.236404] (my_robot) StderrLine: {'line': b'\n'}
+[10.237137] (my_robot) StderrLine: {'line': b'    pigpiod_if2Config.cmake\n'}
+[10.237846] (my_robot) StderrLine: {'line': b'    pigpiod_if2-config.cmake\n'}
+[10.238817] (my_robot) StderrLine: {'line': b'\n'}
+[10.239688] (my_robot) StderrLine: {'line': b'  Add the installation prefix of "pigpiod_if2" to CMAKE_PREFIX_PATH or set\n'}
+[10.240136] (my_robot) StderrLine: {'line': b'  "pigpiod_if2_DIR" to a directory containing one of the above files.  If\n'}
+[10.240509] (my_robot) StderrLine: {'line': b'  "pigpiod_if2" provides a separate development package or SDK, be sure it\n'}
+[10.241078] (my_robot) StderrLine: {'line': b'  has been installed.\n'}
+[10.241533] (my_robot) StderrLine: {'line': b'\n'}
+[10.242955] (my_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[10.244112] (my_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.245533] (my_robot) StdoutLine: {'line': b'See also "/home/pi/final_ws/build/my_robot/CMakeFiles/CMakeOutput.log".\n'}
+[10.274062] (my_robot) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[10.280276] (my_robot) CommandEnded: {'returncode': 2}
+[10.295191] (-) TimerEvent: {}
+[10.397476] (-) TimerEvent: {}
+[10.491258] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 2}
+[10.497629] (-) TimerEvent: {}
+[10.503568] (-) EventReactorShutdown: {}

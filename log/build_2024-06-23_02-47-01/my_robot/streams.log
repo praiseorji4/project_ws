@@ -1,0 +1,44 @@
+[0.050s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.311s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[13.985s] [100%] [32m[1mLinking CXX shared library libmy_robot_hardware.so[0m
+[15.079s] [100%] Built target my_robot_hardware
+[15.119s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[15.306s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/final_ws/build/my_robot
+[15.333s] -- Install configuration: ""
+[15.334s] -- Installing: /home/pi/final_ws/install/my_robot/lib/libmy_robot_hardware.so
+[15.340s] -- Set runtime path of "/home/pi/final_ws/install/my_robot/lib/libmy_robot_hardware.so" to ""
+[15.341s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup
+[15.341s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/config
+[15.342s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/config/my_robot_controllers.yaml
+[15.342s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch
+[15.343s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch/rsp.launch.py
+[15.343s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//bringup/launch/my_robot.launch.py
+[15.343s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description
+[15.344s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf
+[15.344s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf/my_robot.urdf.xacro
+[15.344s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/urdf/common_properties.xacro
+[15.345s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/ros_control
+[15.345s] -- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//description/ros_control/my_robot_control.xacro
+[15.345s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//description/launch
+[15.346s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware
+[15.346s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/src
+[15.347s] -- Installing: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/src/my_robot_hardware.cpp
+[15.347s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include
+[15.347s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include/my_robot
+[15.348s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot//hardware/include/my_robot/my_robot_hardware.hpp
+[15.348s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+[15.348s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+[15.349s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+[15.349s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+[15.350s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/path.sh
+[15.350s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/environment/path.dsv
+[15.350s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.bash
+[15.351s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.sh
+[15.351s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.zsh
+[15.351s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/local_setup.dsv
+[15.352s] -- Installing: /home/pi/final_ws/install/my_robot/share/my_robot/package.dsv
+[15.352s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+[15.352s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+[15.353s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+[15.353s] -- Up-to-date: /home/pi/final_ws/install/my_robot/share/my_robot/package.xml
+[15.359s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/final_ws/build/my_robot

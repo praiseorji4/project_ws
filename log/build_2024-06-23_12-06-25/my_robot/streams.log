@@ -1,0 +1,29 @@
+[0.054s] Invoking command in '/home/pi/final_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target my_robot_hardware[0m
+[0.360s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o[0m
+[15.149s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[15.150s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[15.150s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[15.151s]                  from [01m[K/home/pi/final_ws/src/my_robot/hardware/include/my_robot/my_robot_hardware.hpp:9[m[K,
+[15.152s]                  from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:1[m[K:
+[15.152s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = my_robot::MyRobotHardware; B = hardware_interface::SystemInterface][m[K’:
+[15.153s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[15.153s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmy_robot::MyRobotHardware[m[K’
+[15.154s]   218 |     return [01;31m[Knew C[m[K;
+[15.154s]       |            [01;31m[K^~~~~[m[K
+[15.156s] In file included from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:1[m[K:
+[15.157s] [01m[K/home/pi/final_ws/src/my_robot/hardware/include/my_robot/my_robot_hardware.hpp:13:9:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmy_robot::MyRobotHardware[m[K’:
+[15.157s]    13 |   class [01;36m[KMyRobotHardware[m[K : public hardware_interface::SystemInterface
+[15.157s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[15.158s] In file included from [01m[K/home/pi/final_ws/src/my_robot/hardware/include/my_robot/my_robot_hardware.hpp:4[m[K,
+[15.158s]                  from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:1[m[K:
+[15.159s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:113:39:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> hardware_interface::SystemInterface::export_state_interfaces()[m[K’
+[15.160s]   113 |   virtual std::vector<StateInterface> [01;36m[Kexport_state_interfaces[m[K() = 0;
+[15.161s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.161s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:124:41:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> hardware_interface::SystemInterface::export_command_interfaces()[m[K’
+[15.162s]   124 |   virtual std::vector<CommandInterface> [01;36m[Kexport_command_interfaces[m[K() = 0;
+[15.162s]       |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.473s] gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+[15.473s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+[15.474s] gmake: *** [Makefile:146: all] Error 2
+[15.482s] Invoked command in '/home/pi/final_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/final_ws/build/my_robot -- -j4 -l4

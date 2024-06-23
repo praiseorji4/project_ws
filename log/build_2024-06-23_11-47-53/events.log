@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.002309] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.002832] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.042882] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'cmake'}
+[0.046485] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'build'}
+[0.050007] (my_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/final_ws/build/my_robot', '--', '-j4', '-l4'], 'cwd': '/home/pi/final_ws/build/my_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.200 55776 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/final_ws/install/my_robot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/final_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cdca9136-3ecf-4ab3-bdac-b27f6fab09fc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/final_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-320aca8c75.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/final_ws/build/my_robot'), ('SSH_CONNECTION', '192.168.8.200 55776 192.168.8.198 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/final_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[0.099007] (-) TimerEvent: {}
+[0.199792] (-) TimerEvent: {}
+[0.300710] (-) TimerEvent: {}
+[0.305322] (my_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o\x1b[0m\n'}
+[0.400893] (-) TimerEvent: {}
+[0.501603] (-) TimerEvent: {}
+[0.602334] (-) TimerEvent: {}
+[0.703079] (-) TimerEvent: {}
+[0.803765] (-) TimerEvent: {}
+[0.904443] (-) TimerEvent: {}
+[1.005220] (-) TimerEvent: {}
+[1.105904] (-) TimerEvent: {}
+[1.206585] (-) TimerEvent: {}
+[1.307285] (-) TimerEvent: {}
+[1.407982] (-) TimerEvent: {}
+[1.508893] (-) TimerEvent: {}
+[1.609986] (-) TimerEvent: {}
+[1.710856] (-) TimerEvent: {}
+[1.811603] (-) TimerEvent: {}
+[1.912329] (-) TimerEvent: {}
+[2.013073] (-) TimerEvent: {}
+[2.113775] (-) TimerEvent: {}
+[2.214444] (-) TimerEvent: {}
+[2.315131] (-) TimerEvent: {}
+[2.415880] (-) TimerEvent: {}
+[2.516683] (-) TimerEvent: {}
+[2.617398] (-) TimerEvent: {}
+[2.718196] (-) TimerEvent: {}
+[2.819061] (-) TimerEvent: {}
+[2.919770] (-) TimerEvent: {}
+[3.020471] (-) TimerEvent: {}
+[3.121221] (-) TimerEvent: {}
+[3.221945] (-) TimerEvent: {}
+[3.322753] (-) TimerEvent: {}
+[3.423971] (-) TimerEvent: {}
+[3.524977] (-) TimerEvent: {}
+[3.625897] (-) TimerEvent: {}
+[3.726651] (-) TimerEvent: {}
+[3.827450] (-) TimerEvent: {}
+[3.928587] (-) TimerEvent: {}
+[4.029410] (-) TimerEvent: {}
+[4.130175] (-) TimerEvent: {}
+[4.230967] (-) TimerEvent: {}
+[4.331799] (-) TimerEvent: {}
+[4.432676] (-) TimerEvent: {}
+[4.533509] (-) TimerEvent: {}
+[4.634289] (-) TimerEvent: {}
+[4.735091] (-) TimerEvent: {}
+[4.835845] (-) TimerEvent: {}
+[4.936686] (-) TimerEvent: {}
+[5.037604] (-) TimerEvent: {}
+[5.138626] (-) TimerEvent: {}
+[5.239421] (-) TimerEvent: {}
+[5.340165] (-) TimerEvent: {}
+[5.440942] (-) TimerEvent: {}
+[5.541800] (-) TimerEvent: {}
+[5.642612] (-) TimerEvent: {}
+[5.743456] (-) TimerEvent: {}
+[5.844241] (-) TimerEvent: {}
+[5.945063] (-) TimerEvent: {}
+[6.045808] (-) TimerEvent: {}
+[6.146564] (-) TimerEvent: {}
+[6.247362] (-) TimerEvent: {}
+[6.348168] (-) TimerEvent: {}
+[6.448897] (-) TimerEvent: {}
+[6.549660] (-) TimerEvent: {}
+[6.650406] (-) TimerEvent: {}
+[6.751344] (-) TimerEvent: {}
+[6.852105] (-) TimerEvent: {}
+[6.952899] (-) TimerEvent: {}
+[7.053713] (-) TimerEvent: {}
+[7.154454] (-) TimerEvent: {}
+[7.255257] (-) TimerEvent: {}
+[7.356080] (-) TimerEvent: {}
+[7.456948] (-) TimerEvent: {}
+[7.557712] (-) TimerEvent: {}
+[7.658441] (-) TimerEvent: {}
+[7.759231] (-) TimerEvent: {}
+[7.860054] (-) TimerEvent: {}
+[7.960801] (-) TimerEvent: {}
+[8.061588] (-) TimerEvent: {}
+[8.162330] (-) TimerEvent: {}
+[8.263084] (-) TimerEvent: {}
+[8.363865] (-) TimerEvent: {}
+[8.464635] (-) TimerEvent: {}
+[8.565444] (-) TimerEvent: {}
+[8.666203] (-) TimerEvent: {}
+[8.766980] (-) TimerEvent: {}
+[8.867883] (-) TimerEvent: {}
+[8.971764] (-) TimerEvent: {}
+[9.072560] (-) TimerEvent: {}
+[9.173400] (-) TimerEvent: {}
+[9.274141] (-) TimerEvent: {}
+[9.374925] (-) TimerEvent: {}
+[9.475666] (-) TimerEvent: {}
+[9.576600] (-) TimerEvent: {}
+[9.677390] (-) TimerEvent: {}
+[9.778277] (-) TimerEvent: {}
+[9.879024] (-) TimerEvent: {}
+[9.979778] (-) TimerEvent: {}
+[10.080540] (-) TimerEvent: {}
+[10.181328] (-) TimerEvent: {}
+[10.282105] (-) TimerEvent: {}
+[10.382947] (-) TimerEvent: {}
+[10.483842] (-) TimerEvent: {}
+[10.584617] (-) TimerEvent: {}
+[10.685378] (-) TimerEvent: {}
+[10.786115] (-) TimerEvent: {}
+[10.886933] (-) TimerEvent: {}
+[10.987777] (-) TimerEvent: {}
+[11.088612] (-) TimerEvent: {}
+[11.189414] (-) TimerEvent: {}
+[11.290184] (-) TimerEvent: {}
+[11.390919] (-) TimerEvent: {}
+[11.491701] (-) TimerEvent: {}
+[11.592477] (-) TimerEvent: {}
+[11.693308] (-) TimerEvent: {}
+[11.794201] (-) TimerEvent: {}
+[11.892181] (my_robot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[11.892892] (my_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[11.893405] (my_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:127\x1b[m\x1b[K:\n'}
+[11.893876] (my_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_robot\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.894363] (-) TimerEvent: {}
+[11.895184] (my_robot) StderrLine: {'line': b'  129 | PLUGINLIB_EXPORT_CLASS(\x1b[01;31m\x1b[Kmy_robot\x1b[m\x1b[K::MyRobotHardware, hardware_interface::SystemInterface)\n'}
+[11.895921] (my_robot) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.926612] (my_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[K{anonymous}::ProxyExec0::ProxyExec0()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.927205] (my_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_derived\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.927481] (my_robot) StderrLine: {'line': b'  129 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)\n'}
+[11.927733] (my_robot) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.927981] (my_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [26], const char [36])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.928233] (my_robot) StderrLine: {'line': b'  129 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)\n'}
+[11.928476] (my_robot) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.932455] (my_robot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[11.933246] (my_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[11.933909] (my_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:127\x1b[m\x1b[K:\n'}
+[11.934361] (my_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.934722] (my_robot) StderrLine: {'line': b'  210 | void \x1b[01;36m\x1b[KregisterPlugin\x1b[m\x1b[K(const std::string & class_name, const std::string & base_class_name)\n'}
+[11.935074] (my_robot) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.935396] (my_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.935728] (my_robot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[11.936048] (my_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[11.936429] (my_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:127\x1b[m\x1b[K:\n'}
+[11.936776] (my_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:129:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.937179] (my_robot) StderrLine: {'line': b'  129 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_robot::MyRobotHardware, hardware_interface::SystemInterface)\n'}
+[11.937521] (my_robot) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.994619] (-) TimerEvent: {}
+[12.095476] (-) TimerEvent: {}
+[12.196234] (-) TimerEvent: {}
+[12.297074] (-) TimerEvent: {}
+[12.397791] (-) TimerEvent: {}
+[12.498530] (-) TimerEvent: {}
+[12.599299] (-) TimerEvent: {}
+[12.700076] (-) TimerEvent: {}
+[12.800835] (-) TimerEvent: {}
+[12.901779] (-) TimerEvent: {}
+[13.002532] (-) TimerEvent: {}
+[13.103322] (-) TimerEvent: {}
+[13.204094] (-) TimerEvent: {}
+[13.304846] (-) TimerEvent: {}
+[13.405627] (-) TimerEvent: {}
+[13.506373] (-) TimerEvent: {}
+[13.607166] (-) TimerEvent: {}
+[13.707991] (-) TimerEvent: {}
+[13.777479] (my_robot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1\n'}
+[13.778160] (my_robot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2\n'}
+[13.778797] (my_robot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.784458] (my_robot) CommandEnded: {'returncode': 2}
+[13.808188] (-) TimerEvent: {}
+[13.908896] (-) TimerEvent: {}
+[13.978841] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 2}
+[13.990927] (-) EventReactorShutdown: {}

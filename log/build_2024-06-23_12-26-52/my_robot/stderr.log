@@ -1,0 +1,8 @@
+In file included from [01m[K/home/pi/final_ws/src/my_robot/hardware/src/my_robot_hardware.cpp:1[m[K:
+[01m[K/home/pi/final_ws/src/my_robot/hardware/include/my_robot/my_robot_hardware.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/types/hardware_interface_status_values.hpp: No such file or directory
+    8 | #include [01;31m[K"hardware_interface/types/hardware_interface_status_values.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/my_robot_hardware.dir/build.make:76: CMakeFiles/my_robot_hardware.dir/hardware/src/my_robot_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_robot_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

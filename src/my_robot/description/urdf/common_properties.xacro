@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <material name="green">
+        <color rgba="0 0.5 0 0.5" />
+    </material>
+    <material name="grey">
+        <color rgba="0.5 0.5 0.5 0.5" />
+    </material>
+    <material name="black">
+        <color rgba="0 0 0 1" />
+    </material>
+
+
+    <xacro:property name="box_wid" 
+        value="0.12" />
+    <xacro:property name="box_len"
+        value="0.2" />
+    <xacro:property name="box_hgt"
+        value="0.045" />
+    <xacro:property name="box_mass"
+        value="1.0"  />
+    <xacro:property name="wheel_rad"
+        value="0.03"/>
+    <xacro:property name="wheel_wid"
+        value="0.025"/>
+    <xacro:property name="wheel_mass"
+        value="0.1" />
+
+    
+
+    <!-- Equipment Properties and limitations -->
+    <xacro:property name="max_steer_angle"
+        value="0.5"  />
+    <xacro:property name="bearing_friction"
+        value="0.1"/>
+    <xacro:property name="bearing_damping"
+        value="0.1"/>
+
+
+
+    <!-- Nice to have values, all derived from above -->
+    <xacro:property name="box_wid_sq"
+        value="${box_wid* box_wid}"/>
+    <xacro:property name="box_len_sq"
+        value="${box_len * box_len}"/>
+    <xacro:property name="box_hgt_sq"
+        value="${box_hgt * box_hgt}"/>
+    <xacro:property name="wheel_rad_sq"
+        value="${wheel_rad * wheel_rad}"    />
+    <xacro:property name="wheel_wid_sq"
+        value="${wheel_wid * wheel_wid}"    />
+
+
+</robot>
